@@ -15,6 +15,9 @@ function simular_tiros(n_personas::Int, probabilidad::Float64, tiros_totales::In
     return probabilidad_estimada
 end
 
+########################
+#### CAZATALENTOS 1 ####
+########################
 # Parámetros C1
 n_personas = 100
 probabilidad = 0.701
@@ -26,6 +29,10 @@ n_simulaciones = 10000
 probabilidad_estimada = simular_tiros(n_personas, probabilidad, tiros_totales, tiros_minimos, n_simulaciones)
 println("CAZATALENTOS 1: La probabilidad estimada de que al menos una persona enceste 80 veces es: ", probabilidad_estimada)
 
+
+########################
+#### CAZATALENTOS 2 ####
+########################
 # Parámetros C2
 n_personas = 200
 probabilidad = 0.701
@@ -38,6 +45,10 @@ probabilidad_estimada = simular_tiros(n_personas, probabilidad, tiros_totales, t
 println("CAZATALENTOS 2: La probabilidad estimada de que al menos una persona enceste 80 veces es: ", probabilidad_estimada)
 
 
+
+########################
+#### CAZATALENTOS 3 ####
+########################
 # Parámetros C3
 n_personas = 2
 probabilidad = 0.701
@@ -49,6 +60,11 @@ n_simulaciones = 10000
 probabilidad_estimada = simular_tiros(n_personas, probabilidad, tiros_totales, tiros_minimos, n_simulaciones)
 println("CAZATALENTOS 3: La probabilidad estimada de que al menos una persona enceste 80 veces es: ", probabilidad_estimada)
 
+
+
+########################
+#### CAZATALENTOS 4 ####
+########################
 # Parámetros C4
 n_personas = 1
 probabilidad = 0.701
@@ -60,7 +76,12 @@ n_simulaciones = 10000
 probabilidad_estimada = simular_tiros(n_personas, probabilidad, tiros_totales, tiros_minimos, n_simulaciones)
 println("CAZATALENTOS 4: La probabilidad estimada de que la persona seleccionada enceste 80 veces es: ", probabilidad_estimada)
 
-# Parámetros C3
+
+
+########################
+#### CAZATALENTOS 5 ####
+########################
+# Parámetros C5
 n_personas = 1
 probabilidad = 0.701
 tiros_totales = 100
